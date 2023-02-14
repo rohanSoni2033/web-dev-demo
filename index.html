@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>restaurant</title>
+  </head>
+  <body>
+    <main>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./src/logo.svg" alt="" />
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">categories</a>
+          </li>
+          <li>
+            <a href="#">gifts</a>
+          </li>
+          <li>
+            <a href="#">membership</a>
+          </li>
+        </ul>
+        <button type="button" class="btn login-btn">
+          <div class="btn-icon-text-container">
+            <svg class="icon">
+              <use href="./src/sprite.svg#person" />
+            </svg>
+            <p>login</p>
+          </div>
+        </button>
+        <button class="nav-menu-btn">
+          <svg class="icon">
+            <use href="./src/sprite.svg#menu" />
+          </svg>
+        </button>
+      </nav>
+      <header class="header">
+        <div class="header-background">
+          <img src="./src/images/3378477.jpg" alt="" />
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="product-card-group" id="productContainer"></div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

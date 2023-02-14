@@ -1,0 +1,101 @@
+[
+  {
+    "image": "image10.webp",
+    "title": "chocolate cake",
+    "price": 1299,
+    "oldPrice": 1399,
+    "rating": 4.8,
+    "liked": false
+  },
+  {
+    "image": "image1.webp",
+    "title": "cadbury chocolate hamper",
+    "price": 299,
+    "oldPrice": 399,
+    "rating": 4.4,
+    "liked": false
+  },
+  {
+    "image": "image3.jpg",
+    "title": "cadbury chocolate hamper",
+    "price": 299,
+    "oldPrice": 399,
+    "rating": 4.4,
+    "liked": false
+  },
+  {
+    "image": "image11.jpeg",
+    "title": "chocolate cake",
+    "price": 899,
+    "oldPrice": 999,
+    "rating": 4.4,
+    "liked": true,
+    "backgroundColor": "#4e342e1e"
+  },
+  {
+    "image": "image12.webp",
+    "title": "Cadbury Celebration",
+    "price": 599,
+    "oldPrice": 699,
+    "rating": 4.2,
+    "liked": false
+  },
+  {
+    "image": "image6.webp",
+    "title": "Vanilla Blueberry Cake",
+    "price": 699,
+    "oldPrice": 799,
+    "rating": 4.9,
+    "liked": false
+  },
+  {
+    "image": "image10.webp",
+    "title": "chocolate cake",
+    "price": 1299,
+    "oldPrice": 1399,
+    "rating": 4.8,
+    "liked": false
+  },
+  {
+    "image": "image5.webp",
+    "title": "chocolates candy",
+    "price": 299,
+    "oldPrice": 399,
+    "rating": 4.4,
+    "liked": false
+  },
+  {
+    "image": "image3.jpg",
+    "title": "cadbury chocolate hamper",
+    "price": 299,
+    "oldPrice": 399,
+    "rating": 4.4,
+    "liked": false
+  },
+
+  {
+    "image": "image2.webp",
+    "title": "cadbury chocolate hamper",
+    "price": 299,
+    "oldPrice": 399,
+    "rating": 4.4,
+    "liked": false
+  },
+  {
+    "image": "image11.jpeg",
+    "title": "chocolate cake",
+    "price": 899,
+    "oldPrice": 999,
+    "rating": 4.4,
+    "liked": true,
+    "backgroundColor": "#4e342e1e"
+  },
+  {
+    "image": "image6.webp",
+    "title": "Vanilla Blueberry Cake",
+    "price": 699,
+    "oldPrice": 799,
+    "rating": 4.9,
+    "liked": false
+  }
+]

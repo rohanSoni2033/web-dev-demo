@@ -1,0 +1,69 @@
+main {
+  position: relative;
+  padding-bottom: 3.6rem;
+  // overflow: hidden;
+}
+
+.nav {
+  width: 100%;
+  height: 7rem;
+  background-color: rgba(69, 42, 38, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 0 2.4rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  width: 12rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+}
+
+.nav-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  padding: 2.6rem;
+}
+
+.header-background {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.4rem;
+  overflow: hidden;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-card-group {
+  display: flex;
+  justify-content: center;
+  gap: 3.6rem;
+  flex-wrap: wrap;
+}

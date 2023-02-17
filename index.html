@@ -27,19 +27,14 @@
             <a href="#">membership</a>
           </li>
         </ul>
-        <button type="button" class="btn login-btn">
-          <div class="btn-icon-text-container">
+        <div class="nav-cart-btn-container">
+          <button class="nav-cart-btn" id="displayCart">
             <svg class="icon">
-              <use href="./src/sprite.svg#person" />
+              <use href="./src/sprite.svg#cart" />
             </svg>
-            <p>login</p>
-          </div>
-        </button>
-        <button class="nav-menu-btn">
-          <svg class="icon">
-            <use href="./src/sprite.svg#menu" />
-          </svg>
-        </button>
+          </button>
+          <div class="nav-cart-quantity-icon">0</div>
+        </div>
       </nav>
       <header class="header">
         <div class="header-background">
@@ -51,6 +46,27 @@
         <div class="product-card-group" id="productContainer"></div>
       </section>
     </main>
+
+    <div class="overlay hidden">
+      <div class="cart">
+        <div class="cart-header">
+          <div class="cart-title">
+            <svg class="icon">
+              <use href="./src/sprite.svg#cart" />
+            </svg>
+            <p>cart</p>
+          </div>
+          <div class="cart-close-btn">
+            <button type="button" id="cartCloseBtn" class="icon-btn">
+              <svg class="icon">
+                <use href="./src/sprite.svg#remove" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="cart-content"></div>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
